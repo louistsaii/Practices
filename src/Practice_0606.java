@@ -14,13 +14,12 @@ public class Practice_0606 {
         }
 
         for (int i = 0; i < x.length; i++) {
-            for (int j = 0; j < y.length; j++) 
+            for (int j = 0; j < y.length; j++)
                 if (x[i] % y[j] == 0) {
                     System.out.println(x[i] + "," + y[j] + "(v)");
-                }else{
+                } else {
                     System.out.println(x[i] + "," + y[j]);
                 }
-            }
         }
     }
 }
